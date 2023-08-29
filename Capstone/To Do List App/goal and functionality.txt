@@ -1,0 +1,45 @@
+Project Description
+The goal of this project is to create a ToDo List web application using 
+Node.js, Express.js, and EJS. The application will allow users to create 
+and view tasks. Tasks will not persist between sessions as no database 
+will be used in this version of the application. Styling will be an important 
+aspect of this project to ensure a good user experience.
+
+Deliverables
+- One Node project for the function of the website
+- Including at least one EJS file for the structure of the website
+- Including at least one CSS file for the styling of the website
+
+
+Features
+1. Task Creation: Users should be able to create new tasks.
+2. Task Viewing: Users should be able to view a list of all their tasks.
+3. Task Completion: Users should be able to strike through their completed 
+tasks in the todo list. Tasks do not need to be deleted.
+4. Segmented Lists: Users should be able to access at least 2 lists, one for 
+the day's tasks and another for their work related tasks. (See example website)
+3. Styling: The application should be well-styled and responsive, ensuring a 
+good user experience on both desktop and mobile devices.
+
+
+Timeline
+
+Hour 0: Planning 29.08.2023 - 29.08.2023
+- Gather content and design ideas, create wireframes and mockups.
+
+Hour 1:  Setup 29.08.2023 - 29.08.2023
+- Set up the project repository, initialize the Node.js application, and install 
+necessary dependencies (Express.js, EJS).
+- Plan out the application structure, including routes, views, and static files.
+- Set up the Express.js server and define the necessary routes.
+
+Hour 2-3: Implementing Features
+- Implement the task creation feature. This includes creating the 
+form on the home page and handling the form submission in the server.
+- Implement the task viewing feature. This includes displaying the 
+list of tasks on the home page.
+- Implement the task cross-off feature. This allows the user to check 
+a checkbox and make the task appear striked through.
+- Implement the alternative list to show a different set of todo tasks.
+- Test the application to ensure that task creation and viewing are 
+working correctly.
