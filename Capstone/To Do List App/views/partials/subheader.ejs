@@ -1,0 +1,15 @@
+<div id="subheader">
+
+    <% listsNames.forEach( list => { %>
+        <form action=<%=list.value%> method="GET">
+            <button name=<%=list.name%> value=<%=list.value%> id=<%=list.id%> type="submit" >
+                <%=list.listName%>
+            </button>
+        </form>
+    <% }); %>
+    <form action="/add" method="GET">
+        <button type="submit">+ </button>
+    </form>
+
+
+</div>  

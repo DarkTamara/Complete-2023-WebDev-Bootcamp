@@ -1,11 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do list</title>
-</head>
-<body>
-    hi but here
-</body>
-</html>
+<%- include("partials/header.ejs") %>
+
+<%- include("partials/subheader.ejs") %>
+
+<div id="container_mainTask">
+    <% listTasks.forEach( task  => { %>
+        
+        <div class="container_task">
+            <span class="task_content">
+                <input type="checkbox" name="checked" value="false">
+                <span class="task_description">
+                    <p class="task_title"  name="task_title" >
+                             <%=task.title%> </p>
+                    <p class="task_info" name="task_info">
+                             <%=task.info%> </p>
+                </span>
+            </span>
+        </div>
+
+    <% }); %>
+</div>
+
+
+<%- include("partials/footer.ejs") %>

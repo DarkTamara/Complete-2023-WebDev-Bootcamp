@@ -33,7 +33,7 @@ necessary dependencies (Express.js, EJS).
 - Plan out the application structure, including routes, views, and static files.
 - Set up the Express.js server and define the necessary routes.
 
-Hour 2-3: Implementing Features
+Hour 2-3: Implementing Features 03.09.2023 - 
 - Implement the task creation feature. This includes creating the 
 form on the home page and handling the form submission in the server.
 - Implement the task viewing feature. This includes displaying the 
